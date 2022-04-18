@@ -1,20 +1,16 @@
 import React from 'react'
-import { Button, TextField } from '@skynexui/components';
+import { Button } from '@skynexui/components';
 import SignUpWrapper from './SignUpWrapper';
+import TextField from '@mui/material/TextField';
+
 
 
 function SignUp() {
   return (
     <SignUpWrapper>
-        <label>Your name</label>
-        <TextField />
-        <label>Your email</label>
-        <TextField />
-        <label>Your password</label>
-        <TextField />
-        <label>Your password (again)</label>
-        <TextField />
-        <Button label='SIGN UP'/>
+      <TextField />
+      
+      <Button label='SIGN UP' buttonColors={{ mainColor: '#F57C00' }} fullWidth='true' />
 
     </SignUpWrapper>
   )

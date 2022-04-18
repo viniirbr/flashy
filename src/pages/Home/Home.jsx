@@ -6,7 +6,7 @@ import HomeWraper from './HomeWrapper'
 function Home() {
   return (
     <HomeWraper>
-      <h2>Create flashcards and make your study a lot easier and funnier!</h2>
+      <h2>Create <span>flashcards</span> and make your study a lot easier and funnier!</h2>
       <section>
         <SignUp />
         <Card />

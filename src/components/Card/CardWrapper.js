@@ -18,7 +18,7 @@ const CardWrapper = styled.div`
     }
 
     h3 {
-        color: #74BDCB;
+        color: #189DC9;
     }
 
 `

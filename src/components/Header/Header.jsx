@@ -12,8 +12,8 @@ function Header() {
                 rounded='full'
                 size='xl'
                 colorVariant='accent'
-                buttonColors={{mainColor:'#EFE7BC'}}
-                styleSheet={{color: '#74BDCB', fontFamily: "'Monoton', cursive;", width:'150px'}}/>
+                buttonColors={{mainColor:'#484785'}}
+                styleSheet={{color: '#189DC9', fontFamily: "'Monoton', cursive;", width:'150px'}}/>
         </HeaderWrapper>
     )
 }
