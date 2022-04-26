@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const HomeWraper = styled.main `
     display: flex;
     flex-direction: column;
-    padding: 0 10px;
+    padding: 10px;
 
     >h2 {
         font-size: 2.3rem;
@@ -19,6 +19,16 @@ const HomeWraper = styled.main `
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+    }
+
+    @media screen and (min-width: 600px) {
+        section {
+            flex-direction: row;
+        }
+    }
+
+    @media screen and (min-width: 900px) {
+        padding: 20px 15%;
     }
 `
 

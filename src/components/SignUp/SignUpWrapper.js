@@ -2,12 +2,14 @@ import styled from 'styled-components';
 
 const SignUpWrapper = styled.form `
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
 
-    label {
-        color: #F8F2F3;
-        text-align: start;
-        margin-top: 50px;
+    @media screen and (min-width: 600px) {
+        margin-right: 20px;
     }
+
 `
 
 export default SignUpWrapper;
