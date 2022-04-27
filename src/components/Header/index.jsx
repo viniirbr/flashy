@@ -1,15 +1,19 @@
 import React from 'react'
 import HeaderWrapper from './HeaderWrapper'
 import { Button } from '@mui/material';
+import { accentColor, paperWhite } from '../../ui/colorVariables';
+
 
 
 function Header() {
     return (
         <HeaderWrapper>
             <h1>FLASHY</h1>
-            <Button variant='contained'>Sign in</Button>
+            <Button
+                variant='contained'
+                sx={{ background: paperWhite, color: accentColor }}>Sign in</Button>
 
-                {/*label='SIGN IN'
+            {/*label='SIGN IN'
                 rounded='full'
                 size='xl'
                 colorVariant='accent'

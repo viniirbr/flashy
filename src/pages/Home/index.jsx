@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from '../../components/Card/Card'
-import SignUp from '../../components/SignUp/SignUp'
+import Card from '../../components/Card/index'
+import SignUp from '../../components/SignUp/index'
 import HomeWraper from './HomeWrapper'
 
 function Home() {

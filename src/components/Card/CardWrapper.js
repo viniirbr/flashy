@@ -1,9 +1,11 @@
 import styled from 'styled-components'
+import { paperWhite } from '../../ui/colorVariables';
+
 
 const CardWrapper = styled.div`
     width: 300px;
     height: 300px;
-    background: white;
+    background: ${paperWhite};
     border-radius: 20px;
     display: flex;
     justify-content: center;
